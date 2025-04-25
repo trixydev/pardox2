@@ -45,7 +45,7 @@ def return_function_json(data, funcname, funcparam={}):
 
 @app.route("/", methods=["POST", "GET"])
 def main():
-    return "thanks tictac"
+    return "thanks trixy"
 
 
 @app.route("/api/PlayFabAuthentication", methods=["POST"])
